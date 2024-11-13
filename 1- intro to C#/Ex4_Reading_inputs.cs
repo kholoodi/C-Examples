@@ -1,5 +1,6 @@
  //----------Example 4 ----------
-        /*// Strint  data type input 
+ /*
+        // Strint  data type input 
         Console.Write("May I Ask you to enter your name: ");
         string str = Console.ReadLine(); 
         // Integer data type  input
@@ -12,4 +13,5 @@
         // Boolean data type input
         Console.Write("If it  true please type \"true\" otherwise  type \"false\": ");
         bool result = Convert.ToBoolean(Console.ReadLine()); 
-        Console.WriteLine("Thanks  answer is : " + result);*/
+        Console.WriteLine("Thanks  answer is : " + result);
+        */
