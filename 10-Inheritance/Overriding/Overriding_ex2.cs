@@ -28,10 +28,9 @@ namespace App
       base.Display();
     }
   }
-  	public class Program
+  public class Program
 	{
-		public static void Main(string[] args)
-		{
+    public static void Main(string[] args) {
       Info info1 =  new Info('B');
 			infoDtails info2 = new infoDtails("C#",90,'A');
       info1.Display();
