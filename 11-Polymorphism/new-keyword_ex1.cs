@@ -19,7 +19,7 @@ namespace Polymorphism
   	 public static void Main(string[] args) {
     		BC b;
     		b = new BC();
-    		b.Display()
+    		b.Display();
   	}
   }
 }

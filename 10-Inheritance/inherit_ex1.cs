@@ -9,9 +9,9 @@ namespace Inheritance {
     public decimal grossSales;
     public decimal commissionRate;
     public CommissionEmployee(string name, decimal sales, decimal rate) {
-       em_name = name;
-	     grossSales = sales;
-	     commissionRate = rate;
+    	em_name = name;
+		grossSales = sales;
+	    commissionRate = rate;
 	    }
         // CommissionRate property
     public decimal CommissionRate {
