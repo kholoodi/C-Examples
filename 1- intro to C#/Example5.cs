@@ -1,5 +1,16 @@
 //-----------Example 5 ------------
-         //Variables and constants declaration statement
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+
+namespace HelloWorld
+{
+	public class Program
+	{
+		public static void Main(string[] args)
+		{
+		//Variables and constants declaration statement
          const int A = 2, B = 1, C = 3;
          int  y = 0;
          // Reading the x value from user 
@@ -9,3 +20,6 @@
          y =  A * ( x * x) + ( B * x  - C);
          //print the output 
          Console.WriteLine("y = " + y);
+  	    }
+	}
+}
