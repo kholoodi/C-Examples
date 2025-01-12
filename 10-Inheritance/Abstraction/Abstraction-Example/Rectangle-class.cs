@@ -9,7 +9,7 @@ namespace Shapes
     public static int Rectangle_num = 0; 
   	public double length;
     public double Width;
-       public Rectangle (){
+      public Rectangle (){
       Rectangle_num++;
     }
     public Rectangle (double l, double w){

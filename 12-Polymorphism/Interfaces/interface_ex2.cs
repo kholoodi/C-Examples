@@ -6,7 +6,7 @@ using System.Text.RegularExpressions;
 namespace Polymorphism
 {
   class A {
-		public void disp(){
+	public void disp(){
 		  Console.WriteLine("disp() method of class A");
 		}
 	}
@@ -24,8 +24,8 @@ namespace Polymorphism
 			Z obj = new Z();
 			obj.disp();
 			obj.mno();
-	    		obj.pqr();
-	    		Console.ReadLine();
+	    	obj.pqr();
+	    	Console.ReadLine();
 	  	} 
 	}
 }
